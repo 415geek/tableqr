@@ -38,10 +38,10 @@ footer_text = st.text_input("✏️ 输入底部文字（如 SCAN TO ORDER）", 
 st.markdown("🎯 调整文字位置（像素单位）：")
 desk_x = st.slider("桌号文字（左右调整）", 0, label_w, 290)
 desk_y = st.slider("桌号文字 （上下调整）", 0, label_h, 20)
-shop_x = st.slider("店铺文字 （左右调整）, 0, label_w, 200)
+shop_x = st.slider("店铺文字 （左右调整）", 0, label_w, 200)
 shop_y = st.slider("店铺文字 （上下调整）", 0, label_h, 550)
 footer_x = st.slider("底部文字 （左右调整）", 0, label_w, 180)
-footer_y = st.slider("底部文字 （上下调整", 0, label_h, 750)
+footer_y = st.slider("底部文字 （上下调整) ", 0, label_h, 750)
 
 # 生成单个标签
 def create_label(qr_img, desk_name):
